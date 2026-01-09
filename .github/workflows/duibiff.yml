@@ -1,8 +1,9 @@
 name: duibiff
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 5/6 * * *'
+    - cron: '56 0/6 * * *'
 
 jobs:
   build:
@@ -11,12 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: duibiff
         env:
-          ppjos412: ${{ secrets.ppjos412 }}
+          i89330: ${{ secrets.i89330 }}
         run: |
-          echo $ppjos412 | jq -r .wno69779 | /bin/bash
-          echo $o98641 | jq -r .dy014 | /bin/bash
-          echo $xdim36687 | jq -r .ioh2 | /bin/bash
-          echo $seqmq4476 | jq -r .hebr1 | /bin/bash
-          echo $gizln0 | jq -r .y1586 | /bin/bash
-          echo $udlvl414 | jq -r .ovdnh7115 | /bin/bash
+          echo $i89330 | jq -r .zcttk5 | /bin/bash
+          echo $i8 | jq -r .feqau8818 | /bin/bash
+          echo $g371 | jq -r .fxzhm5 | /bin/bash
+          echo $al95215 | jq -r .jveuw491 | /bin/bash
+          echo $h313 | jq -r .uq6 | /bin/bash
 
